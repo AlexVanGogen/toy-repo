@@ -25,4 +25,9 @@ public class SomeClass {
     {
         return input_string + " " + counter;
     }
+
+    public void printMessage()
+    {
+        System.out.println(message());
+    }
 }
